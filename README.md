@@ -1,2 +1,0 @@
-# Igor-voy.github.io
-
