@@ -1,33 +1,145 @@
-<!doctype html>
-<meta charset="utf-8">
-<link rel="stylesheet" href="/static/style.css">
-<title>Welcome to Portfolio! — Portfolio</title>
-<body>
-  <header>
-    <h1>Portfolio</h1>
-    <nav>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="/">Welcome</a></li>
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
+        <link href="style.css" rel="stylesheet">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- CSS only -->
         
-          <li><a href="/blog/">Blog</a></li>
-        
-          <li><a href="/projects/">Projects</a></li>
-        
-          <li><a href="/about/">About</a></li>
-        
-      </ul>
-    </nav>
-  </header>
-  <div class="page">
+    </head>
+
+    <body>
+        <header>
+            <div class="header">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img src="https://camo.githubusercontent.com/a664defdd5c2ec93a3fbfb51e0f2aaafa5dc57bf1e13aa47456ced037b3cebe8/68747470733a2f2f676574626f6f7473747261702e636f6d2f646f63732f352e302f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67" alt="" width="30" height="24">
+                          Портфолио
+                        </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Автор</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Курсы
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">1 Курс</a></li>
+                              <li><a class="dropdown-item" href="#">2 Курс</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">3 Курс</a></li>
+                              <li><a class="dropdown-item" href="#">4 Курс</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section>
+            <h2>Лабораторная работа 3, 4</h2>
+            <p><h3>Транспиляция. Babel. Компонентность</h3>
+            <p>Цель: освоить основные операции по транспиляции кода с помощью Babel.</p>
+            <button type="button" class="btn btn-outline-dark"><a href="#">Просмотр</a></button>
+
+            <hr>
+
+            <h2>Лабораторная работа 5, 6</h2>
+            <p><h3>Модульность в экосистеме JavaScript</h3>
+            <p>Цель: освоить основные операции по сборке проекта с помощью webpack.</p>
+            <button type="button" class="btn btn-outline-dark"><a href="#">Просмотр</a></button>
+
+            <hr>
+
+            <h2>Лабораторная работа 7, 8</h2>
+            <p><h3>SVG и Canvas</h3>
+            <p>Цель: освоить методы рисования графики с использованием JavaScript Canvas API.</p>
+            <button type="button" class="btn btn-outline-dark"><a href="#">Просмотр</a></button>
+
+            <hr>
+
+            <h2>Лабораторная работа 9, 10</h2>
+            <p><h3>Отправка HTTP-запроса серверу методом POST с помощью клиентов telnet и cURL</h3>
+            <p>Цель: освоить операции отправки запросов серверу с помощью клиентов telnet и cURL.</p>
+            <button type="button" class="btn btn-outline-dark"><a href="#">Просмотр</a></button>
+
+            <hr>
+
+            <h2>Лабораторная работа 11, 12</h2>
+            <p><h3>Создание сценария на языке PHP, обработка запросов GET и POST</h3>
+            <p>Цель: разработать сценарий на языке PHP для обработки запросов, отправленных методами GET и POST.</p>
+            <button type="button" class="btn btn-outline-dark"><a href="#">Просмотр</a></button>
+
+            <hr>
+
+            <h2>Лабораторная работа 13</h2>
+            <p><h3>Создание логгера</h3>
+            <p>Цель: создание приложения, которое демонстрирует простые возможности PHP по работе с файлами.</p>
+            <button type="button" class="btn btn-outline-dark"><a href="#">Просмотр</a></button>
+
+            <hr>
+
+            <h2>Лабораторная работа 14</h2>
+            <p><h3>-</h3>
+            <p>Цель: -</p>
+            <button type="button" class="btn btn-outline-dark"><a href="#">Просмотр</a></button>
+
+            <hr>
+
+            <h2>Лабораторная работа 15</h2>
+            <p><h3>-</h3>
+            <p>Цель: -</p>
+            <button type="button" class="btn btn-outline-dark"><a href="#">Просмотр</a></button>
+        </section>
+
+        <footer class="foot">
+            <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        &copy Войтенко Игорь
+                    </a>
+                    <a href="https://vk.com/id149253266">
+                        <img src="https://pngicon.ru/file/uploads/vk-128x128.png" alt="Вконтакте" height="30" width="30">
+                    </a>
+                </div>
+            </div>
+        </footer>
     
-  <h2>Welcome to Portfolio!</h2>
-  <p>This is a basic demo website that shows how to use Lektor for a basic
-website with some pages and a blog.</p>
 
+     <!-- Прелоадер -->
+     <style type="text/css">#hellopreloader>p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 1000px;background: #585858 url(http://hello-site.ru//main/images/preloads/puff.svg) center center no-repeat;background-size:146px;}</style>
+     <div id="hellopreloader"><div id="hellopreloader_preload"></div><p><a href="http://hello-site.ru">Hello-Site.ru. Бесплатный конструктор сайтов.</a></p></div>
+     <script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},4000);};</script>
+     <!-- Прелоадер -->
 
-  </div>
-  <footer>
-    &copy; Copyright 2021 by Igor Voytenko.
-  </footer>
-</body>
+     <!-- jQuery -->
+     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+     <!-- jQuery -->
 
+     <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+     crossorigin="anonymous"></script>
+     <!-- JavaScript Bundle with Popper -->
+
+     </body>
+
+</html>
