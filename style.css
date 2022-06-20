@@ -2,8 +2,12 @@
     box-sizing: border-box;
 }
 
+.sec-1 {
+    height: 100px;
+}
+
 .header {
-    background-image: url(https://lifehacker.ru/wp-content/uploads/2019/10/prog_2_1571836784.png);
+    background-image: url(https://media.tproger.ru/uploads/2019/04/learn-programming-880x308.png);
     min-height: 500px;
     min-width: 1000px;
     margin-top: 50px; 
